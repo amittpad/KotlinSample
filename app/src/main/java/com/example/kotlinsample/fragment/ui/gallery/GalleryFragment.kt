@@ -1,4 +1,4 @@
-package com.example.kotlinsample.ui.gallery
+package com.example.kotlinsample.fragment.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
