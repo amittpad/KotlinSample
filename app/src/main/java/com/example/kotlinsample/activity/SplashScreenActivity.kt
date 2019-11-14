@@ -3,14 +3,11 @@ package com.example.kotlinsample.activity
 import android.content.Intent
 import android.graphics.Color
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import com.example.kotlinsample.AbstractProjectBaseActivity
-import com.example.kotlinsample.BaseActivity
 import com.example.kotlinsample.R
-import java.io.IOException
 
 class SplashScreenActivity : AbstractProjectBaseActivity() {
     // Splash screen timer
@@ -27,7 +24,7 @@ class SplashScreenActivity : AbstractProjectBaseActivity() {
 
 
         Handler().postDelayed({
-            startLeftAnimatedActivity(Intent(applicationContext, BaseActivity::class.java))
+            startLeftAnimatedActivity(Intent(applicationContext, MainActivity::class.java))
 //            if (userId != "") {
 //                startAnimatedActivity(Intent(applicationContext, DashboardActivity::class.java))
 //            } else {
