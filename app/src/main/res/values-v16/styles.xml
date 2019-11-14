@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="PageTitleStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:fontFamily">@font/roboto_slab_light</item>
+    </style>
+
+    // 14sp is the default text size when the text can be quite long
+
+    <style name="BodyTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:color">@android:color/black</item>
+    </style>
+
+    //when there’s only a small modal with a bit of text, it’s 16sp!(Modal)
+
+    <style name="BodyTextNormalStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="MenuTitleStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:color">@color/colorPrimary</item>
+    </style>
+
+    <style name="SecondaryTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:color">@color/primary_text_default_material_dark</item>
+    </style>
+
+    <style name="ButtonTextStyle" parent="android:Widget.Button">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginLeft">@dimen/_20sdp</item>
+        <item name="android:layout_marginRight">@dimen/_20sdp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+    </style>
+
+    <style name="FormEditTextStyle" parent="@android:style/TextAppearance.Widget.EditText">
+        //NO UNDERBAR
+        <item name="android:maxLines">1</item>
+        <item name="android:height">@dimen/_50sdp</item>
+        //COMMON HEIGHT
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ErrorTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:color">@android:color/holo_red_light</item>
+    </style>
+
+
+</resources>
